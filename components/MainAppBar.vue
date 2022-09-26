@@ -6,10 +6,31 @@
       dark
       fixed
     >
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Jacaranda Show Budgie Society</v-toolbar-title>
+      <v-btn class="rounded-xl purple darken-4" @click="drawer = !drawer">Main Menu</v-btn>
       <v-spacer></v-spacer>
-      <v-btn class="mr-2" rounded small text to="/contacts">Contact Us</v-btn>
+      <v-btn
+        class="mr-2"
+        href="https://www.showbudgies.co.za/shows/"
+        rounded
+        small
+        target="_blank"
+        text
+      >
+        Shows
+      </v-btn>
+      <v-btn
+        class="mr-2"
+        href="https://www.showbudgies.co.za/results/results-main"
+        rounded
+        small
+        target="_blank"
+        text
+      >
+        Results
+      </v-btn>
+      <v-btn class="mr-3" icon to="/">
+        <v-icon>mdi-phone</v-icon>
+      </v-btn>
       <v-btn class="mr-3" icon to="/">
         <v-icon>mdi-home</v-icon>
       </v-btn>
@@ -72,11 +93,6 @@ export default {
         icon: 'mdi-account-group'
       },
       {
-        title: 'Show Results',
-        src: '/results',
-        icon: 'mdi-medal'
-      },
-      {
         title: 'Club Champions',
         src: '/champions',
         icon: 'mdi-trophy'
@@ -85,6 +101,11 @@ export default {
         title: 'Show Budgie Hobby',
         src: '/hobby',
         icon: 'mdi-heart'
+      },
+      {
+        title: 'Sales / Wanted',
+        src: '/sales',
+        icon: 'mdi-cash'
       }
     ]
   })

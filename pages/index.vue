@@ -1,7 +1,7 @@
 <template>
   <v-container fluid>
-    <v-img class="ma-auto" height="315" src="/images/logo.jpg" width="339" />
-    <p class="text-center mt-1">
+    <v-img class="ma-auto" src="/logo.svg" width="339" />
+    <p class="text-center mt-3">
       Affiliated to the <a href="https://www.showbudgies.co.za" target="_blank">Budgerigar
         Society of South Africa</a>
     </p>
