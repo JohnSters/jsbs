@@ -6,33 +6,41 @@
       dark
       fixed
     >
-      <v-btn class="rounded-xl purple darken-4" @click="drawer = !drawer">Main Menu</v-btn>
+      <v-btn
+        class="rounded-xl purple darken-4"
+        @click="drawer = !drawer"
+        text
+      >
+        Main Menu
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn
         class="mr-2"
         href="https://www.showbudgies.co.za/shows/"
+        target="_blank"
+        color="purple darken-3"
         rounded
         small
-        target="_blank"
-        text
+        depressed
       >
-        Shows
+        Upcoming Shows
       </v-btn>
       <v-btn
         class="mr-2"
         href="https://www.showbudgies.co.za/results/results-main"
+        target="_blank"
+        color="purple darken-3"
         rounded
         small
-        target="_blank"
-        text
+        depressed
       >
-        Results
+        Show Results
       </v-btn>
-      <v-btn class="mr-3" icon to="/">
-        <v-icon>mdi-phone</v-icon>
+      <v-btn class="mr-1" icon to="/" small>
+        <v-icon small>mdi-phone</v-icon>
       </v-btn>
-      <v-btn class="mr-3" icon to="/">
-        <v-icon>mdi-home</v-icon>
+      <v-btn class="mr-2" icon to="/" small>
+        <v-icon small>mdi-home</v-icon>
       </v-btn>
     </v-app-bar>
 
@@ -83,14 +91,19 @@ export default {
         icon: 'mdi-account'
       },
       {
-        title: 'Latest News',
-        src: '/news',
-        icon: 'mdi-note'
-      },
-      {
         title: 'The Society',
         src: '/society',
         icon: 'mdi-account-group'
+      },
+      {
+        title: 'Show Results',
+        src: '/results',
+        icon: 'mdi-podium'
+      },
+      {
+        title: 'Latest News',
+        src: '/news',
+        icon: 'mdi-note'
       },
       {
         title: 'Club Champions',

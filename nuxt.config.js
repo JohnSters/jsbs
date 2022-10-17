@@ -9,8 +9,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - jsbs',
-    title: 'jsbs',
+    titleTemplate: '%s - Jacaranda Show Budgie Society',
+    title: 'JSBS',
     htmlAttrs: {
       lang: 'en'
     },
