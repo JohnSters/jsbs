@@ -6,6 +6,25 @@
         Society of South Africa</a>
     </p>
 
+    <v-btn
+      class="rounded-0 white--text hidden-md-and-up"
+      href="https://www.showbudgies.co.za/shows/"
+      target="_blank"
+      color="purple darken-3"
+      block
+    >
+      Upcoming Shows
+    </v-btn>
+    <v-btn
+      class="rounded-0 mt-1 mb-2 white--text hidden-md-and-up"
+      href="https://www.showbudgies.co.za/results/results-main"
+      target="_blank"
+      color="purple darken-3"
+      block
+    >
+      SA Show Results
+    </v-btn>
+
     <h2 class="text-center font-weight-light purple lighten-2 white--text">Competition Winners</h2>
 
     <v-row class="hidden-lg-and-up">
