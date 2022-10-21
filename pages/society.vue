@@ -18,7 +18,7 @@
         Society Guidelines
       </v-tab>
       <v-tab>
-        Next
+        Year Program
       </v-tab>
     </v-tabs>
 
@@ -68,6 +68,19 @@
             <br>
             7. Membership fees must be paid-up by the end of August, before the Annual General Meeting, in order for ring orders to be processed.
           </v-card-text>
+        </v-card>
+      </v-tab-item>
+      <v-tab-item>
+        <v-card>
+          <h3>Important Dates</h3>
+          <p>The JSBS year program is set up at the beginning of each year so that all members can diarise these dates.
+            Year program is included in each months Monthly Minutes.</p>
+          <ul>
+            <li>16 July - First Ring order date for next years rings</li>
+            <li>31 August - JSBS subs due for next year</li>
+            <li>1 September - Final date for current year ring orders</li>
+            <li>BSSA Management Committee Nominations due 3 months before the National Show.</li>
+          </ul>
         </v-card>
       </v-tab-item>
     </v-tabs-items>

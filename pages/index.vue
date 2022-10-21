@@ -6,12 +6,15 @@
         Society of South Africa</a>
     </p>
 
+    <h2 class="text-center font-weight-light purple lighten-2 white--text">Competition Winners</h2>
+
     <v-row class="hidden-lg-and-up">
       <v-col
         v-for="(image, id) in images"
         :key="id"
         class="d-flex child-flex"
-        cols="3"
+        cols="12"
+        sm="3"
       >
         <v-card class="pa-3 mb-3">
           <v-img
