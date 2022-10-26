@@ -32,7 +32,8 @@
             If you are interested in Show Budgies and would like to know more about this interesting hobby
             and would like to contact your nearest club in South Africa.
             <br>
-            email: <b>retha@tbgequine.co.za</b>
+            <br>
+            <h3>Email Leaonard @ <b>Govenderleonard98@gmail.com</b></h3>
 
             <h3 class="mt-3">Club Fees: R450, Affiliation Fees: R500</h3>
           </v-card-text>

@@ -152,7 +152,7 @@
         <v-col cols="12" sm="3">
           <v-card class="pa-3 purple white--text rounded-0" flat>
             <h5 class="text-center">
-              Vice Chairmen
+              Vice Chairman
             </h5>
             <h4 class="text-center font-weight-light">
               Mike Davies
@@ -187,13 +187,13 @@
               Secretary
             </h5>
             <h4 class="text-center font-weight-light">
-              Retha van Deventer
+              Leonard Govender
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 082-685-7139
+              : 060-817-5677
             </h4>
           </v-card>
         </v-col>
@@ -219,7 +219,7 @@ export default {
       { src: 'images/home/bird4.jpeg', title: 'Best Opposite Sex - Pierre ' },
       { src: 'images/home/bird5.jpeg', title: 'Best Intermediate + Best Derby - Henk' },
       { src: 'images/home/bird6.jpeg', title: 'Best Opposite Sex - Retha' },
-      { src: 'images/home/bird7.jpeg', title: 'Best Noive - Preggy/Kaiden' },
+      { src: 'images/home/bird7.jpeg', title: 'Best Novice - Preggy/Kaiden' },
       { src: 'images/home/bird8.jpeg', title: 'Best Novice Opposite Sex - Sarel' },
       { src: 'images/home/bird1.jpeg', title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart' },
       { src: 'images/home/bird2.jpeg', title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden' }

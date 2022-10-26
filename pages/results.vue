@@ -73,67 +73,67 @@
         </v-card>
 
         <v-row class="mt-6">
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1201.jpg"></v-img>
             Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1202.jpg"></v-img>
             Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1203.jpg"></v-img>
             Best Derby Novice on Show - Philip Jacobs
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1204.jpg"></v-img>
             Best Derby Novice Opposite Sex on Show - Rynier Burger
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1301.jpg"></v-img>
             Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1302.jpg"></v-img>
             Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1401.jpg"></v-img>
             Best Derby on Show JSBS and Best Derby Champion JSBS on Show and Best Derby Overall - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1402.jpg"></v-img>
             Best Derby on Show JSBC and Best Derby Champion JSBC on Show - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1403.jpg"></v-img>
             Best Derby Opposite Sex JSBC - Mike Davies.
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1501.jpg"></v-img>
             Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1502.jpg"></v-img>
             Best Derby Opposite Sex on Show JSBS and Best Derby Novice JSBS on Show - Cyril Nienaber
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1601.jpg"></v-img>
             Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1602.jpg"></v-img>
             Best Derby Opposite Sex on Show JSBS - Nel Brothers Stud
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1701.jpg"></v-img>
             Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1803.jpg"></v-img>
             Best Derby Bird on Show - Pierre Swart
           </v-col>
-          <v-col cols="2">
+          <v-col cols="12" sm="4">
             <v-img contain height="400" src="/images/budgies/derby/d1901.jpg"></v-img>
             Best Derby Resplendent Bird Aviaries.
           </v-col>
@@ -148,19 +148,29 @@
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
                 <p class="display-1 font-weight-light">Mini Show Results 2023</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>View</v-btn>
+                <p>Show results coming soon</p>
+                <v-btn block class="purple darken-1" depressed disabled rounded>Coming Soon</v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
                 <p class="display-1 font-weight-light">Mini Show Results 2022</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>View</v-btn>
+                <p>Show results coming soon</p>
+                <v-btn block class="purple darken-1" depressed disabled rounded>Coming Soon</v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
                 <p class="display-1 font-weight-light">Mini Show Results 2021</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>View</v-btn>
+                <p>Cancelled due to Covid</p>
+                <v-btn block class="purple darken-1" depressed disabled rounded>cancelled</v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">Mini Show Results 2020</p>
+                <p>Cancelled due to Covid</p>
+                <v-btn block class="purple darken-1" depressed rounded disabled>cancelled</v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
@@ -307,6 +317,42 @@ export default {
   data: () => ({
     tab: null,
     derby: [
+      {
+        year: '2023',
+        beginners: 'X',
+        novice: '',
+        intermediate: '',
+        champion: '',
+        opposite: '',
+        show: 'Coming Soon'
+      },
+      {
+        year: '2022',
+        beginners: 'X',
+        novice: '',
+        intermediate: '',
+        champion: '',
+        opposite: '',
+        show: 'Coming Soon'
+      },
+      {
+        year: '2021',
+        beginners: 'X',
+        novice: '',
+        intermediate: '',
+        champion: '',
+        opposite: '',
+        show: 'Cancelled due to Covid'
+      },
+      {
+        year: '2020',
+        beginners: 'X',
+        novice: '',
+        intermediate: '',
+        champion: '',
+        opposite: '',
+        show: 'Cancelled due to Covid'
+      },
       {
         year: '2019',
         beginners: 'X',
