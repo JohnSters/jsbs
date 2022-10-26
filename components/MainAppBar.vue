@@ -39,7 +39,6 @@
 
       <v-bottom-sheet
         v-model="sheet"
-        persistent
       >
         <template v-slot:activator="{ on, attrs }">
           <v-btn class="mr-2"
@@ -63,7 +62,7 @@
           >
             close
           </v-btn>
-          <v-card class="mx-8">
+          <v-card>
             <v-simple-table>
               <template>
                 <thead>
@@ -132,7 +131,7 @@ export default {
       { name: 'Pierre Swart', office: 'Chairman', number: '079-797-5265' },
       { name: 'Mike Davies', office: 'Vice Chairman', number: '082-056-4734' },
       { name: 'Morne Bothma', office: 'Treasurer', number: '082-867-4352' },
-      { name: 'Retha van Deventer', office: 'Secretary', number: '082-685-7139' },
+      { name: 'Leonard Govender', office: 'Secretary', number: '060-817-5677' },
       { name: 'Henk Potgieter', office: 'Additional Member', number: '082-577-6456' },
       { name: 'Preggy Chetty', office: 'Additional Member', number: '083-375-4776' },
       { name: 'Wimpie vd Heever', office: 'Additional Member', number: '083-507-0187' }

@@ -7,7 +7,7 @@
       </v-container>
     </v-main>
     <v-footer>
-      <span>&copy; {{ new Date().getFullYear() }} Jacaranda Show Budgie Society</span>
+      <span>&copy; 2023 Jacaranda Show Budgie Society</span>
     </v-footer>
   </v-app>
 </template>
