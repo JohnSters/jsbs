@@ -31,13 +31,16 @@
           color="basil"
           flat
         >
-          <CountDownTimer />
+          <CountDownTimer/>
 
-          <v-card-text>
-              <p>JSBS Derby birds 1 to 20 of 2022</p>
-              <p>JSBS Club show all 2022 rung birds eligible </p>
-              <p>Judge for the day will be announced</p>
-          </v-card-text>
+          <v-card class="ma-6 pa-3">
+            Other Upcoming Events
+            <ul>
+              <li>JSBS Derby birds 1 to 20 of 2022</li>
+              <li>JSBS Club show all 2022 rung birds eligible</li>
+              <li>Judge for the day will be announced</li>
+            </ul>
+          </v-card>
         </v-card>
       </v-tab-item>
 
@@ -85,7 +88,8 @@
             <br>
             6. Help and assist all club members.
             <br>
-            7. Membership fees must be paid-up by the end of August, before the Annual General Meeting, in order for ring orders to be processed.
+            7. Membership fees must be paid-up by the end of August, before the Annual General Meeting, in order for
+            ring orders to be processed.
           </v-card-text>
         </v-card>
       </v-tab-item>

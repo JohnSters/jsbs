@@ -13,6 +13,13 @@
       >
         Main Menu
       </v-btn>
+      <v-btn
+        class="rounded-xl purple darken-3 ml-2"
+        href="/society"
+        text
+      >
+        The Society
+      </v-btn>
       <v-spacer></v-spacer>
       <v-btn
         class="mr-2 hidden-sm-and-down"
@@ -86,7 +93,7 @@
         </v-sheet>
       </v-bottom-sheet>
 
-      <v-btn class="mr-2" icon to="/" small>
+      <v-btn class="mr-2" icon href="/" small>
         <v-icon small>mdi-home</v-icon>
       </v-btn>
     </v-app-bar>
@@ -151,11 +158,6 @@ export default {
         title: 'Breeding',
         src: '/breeding',
         icon: 'mdi-trophy'
-      },
-      {
-        title: 'The Society',
-        src: '/society',
-        icon: 'mdi-account-group'
       },
       {
         title: 'Latest News',

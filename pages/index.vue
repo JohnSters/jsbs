@@ -3,28 +3,28 @@
     <v-img class="ma-auto" src="/logo.svg" width="300"/>
     <p class="text-center mt-3">
       Affiliated to the <a href="https://www.showbudgies.co.za" target="_blank">Budgerigar
-        Society of South Africa</a>
+      Society of South Africa</a>
     </p>
 
     <v-card class="pa-3 mt-3 mb-3 text-center purple lighten-5">
-      <CountDownTimer />
+      <CountDownTimer/>
     </v-card>
 
     <v-btn
+      block
       class="rounded-0 white--text hidden-md-and-up"
+      color="purple darken-3"
       href="https://www.showbudgies.co.za/shows/"
       target="_blank"
-      color="purple darken-3"
-      block
     >
       Upcoming Shows
     </v-btn>
     <v-btn
+      block
       class="rounded-0 mt-1 mb-2 white--text hidden-md-and-up"
+      color="purple darken-3"
       href="https://www.showbudgies.co.za/results/results-main"
       target="_blank"
-      color="purple darken-3"
-      block
     >
       SA Show Results
     </v-btn>
@@ -42,26 +42,26 @@
         <v-card class="pa-3 mb-3">
           <v-img
             :src="image.src"
-            height="350"
-            contain
             aspect-ratio="1"
             class="purple lighten-5"
+            contain
+            height="350"
           >
             <template v-slot:placeholder>
               <v-row
-                class="fill-height ma-0"
                 align="center"
+                class="fill-height ma-0"
                 justify="center"
               >
                 <v-progress-circular
-                  indeterminate
                   color="grey lighten-5"
+                  indeterminate
                 ></v-progress-circular>
               </v-row>
             </template>
           </v-img>
 
-          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a> </p>
+          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a></p>
 
         </v-card>
       </v-col>
@@ -77,26 +77,26 @@
         <v-card class="pa-3 mb-3">
           <v-img
             :src="image.src"
-            height="550"
-            contain
             aspect-ratio="1"
             class="purple lighten-5"
+            contain
+            height="550"
           >
             <template v-slot:placeholder>
               <v-row
-                class="fill-height ma-0"
                 align="center"
+                class="fill-height ma-0"
                 justify="center"
               >
                 <v-progress-circular
-                  indeterminate
                   color="grey lighten-5"
+                  indeterminate
                 ></v-progress-circular>
               </v-row>
             </template>
           </v-img>
 
-          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a> </p>
+          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a></p>
 
         </v-card>
       </v-col>
@@ -108,12 +108,12 @@
       </h2>
       <h3 class="font-weight-light blue-grey--text text-center">
         It is with great pride to announce that <b
-          class="font-weight-bold"
-        >Reinhard Molkentin</b> has won the
+        class="font-weight-bold"
+      >Reinhard Molkentin</b> has won the
         <br>WBO 2021
         <b>Gould</b> Award.
       </h3>
-      <v-img class="ma-auto" src="/images/reinhard.png" width="350" />
+      <v-img class="ma-auto" src="/images/reinhard.png" width="350"/>
       <h3 class="font-weight-light blue-grey--text text-center mt-3">
         "Congratulations to Reinhard on this prestigious
         award."
@@ -219,15 +219,39 @@ export default {
       'orange'
     ],
     images: [
-      { src: 'images/home/bird3.jpeg', title: 'Best Bird in Show - Pierre ' },
-      { src: 'images/home/bird4.jpeg', title: 'Best Opposite Sex - Pierre ' },
-      { src: 'images/home/bird5.jpeg', title: 'Best Intermediate + Best Derby - Henk' },
-      { src: 'images/home/bird6.jpeg', title: 'Best Opposite Sex - Retha' },
-      { src: 'images/home/bird7.jpeg', title: 'Best Novice - Preggy/Kaiden' },
-      { src: 'images/home/bird8.jpeg', title: 'Best Novice Opposite Sex - Sarel' },
-      { src: 'images/home/bird1.jpeg', title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart' },
-      { src: 'images/home/bird2.jpeg', title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden' }
+      {
+        src: 'images/home/bird3.jpeg',
+        title: 'Best Bird in Show - Pierre '
+      },
+      {
+        src: 'images/home/bird4.jpeg',
+        title: 'Best Opposite Sex - Pierre '
+      },
+      {
+        src: 'images/home/bird5.jpeg',
+        title: 'Best Intermediate + Best Derby - Henk'
+      },
+      {
+        src: 'images/home/bird6.jpeg',
+        title: 'Best Opposite Sex - Retha'
+      },
+      {
+        src: 'images/home/bird7.jpeg',
+        title: 'Best Novice - Preggy/Kaiden'
+      },
+      {
+        src: 'images/home/bird8.jpeg',
+        title: 'Best Novice Opposite Sex - Sarel'
+      },
+      {
+        src: 'images/home/bird1.jpeg',
+        title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart'
+      },
+      {
+        src: 'images/home/bird2.jpeg',
+        title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden'
+      }
     ]
-  }),
+  })
 }
 </script>
