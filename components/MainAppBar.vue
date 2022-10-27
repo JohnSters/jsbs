@@ -93,7 +93,7 @@
         </v-sheet>
       </v-bottom-sheet>
 
-      <v-btn class="mr-2" icon href="/" small>
+      <v-btn class="mr-2" icon to="/" small>
         <v-icon small>mdi-home</v-icon>
       </v-btn>
     </v-app-bar>

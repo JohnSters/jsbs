@@ -31,8 +31,11 @@
           color="basil"
           flat
         >
-          <CountDownTimer/>
-
+          <v-card class="ma-6 pa-3 text-center">
+            <CountDownTimer/>
+            <h2>Venue: Sarel Van Zyl's Residence</h2>
+            <p>email: Leonard @ <b>Govenderleonard98@gmail.com</b> for more info.</p>
+          </v-card>
           <v-card class="ma-6 pa-3">
             Other Upcoming Events
             <ul>
@@ -54,7 +57,7 @@
             and would like to contact your nearest club in South Africa.
             <br>
             <br>
-            <h3>Email Leaonard @ <b>Govenderleonard98@gmail.com</b></h3>
+            <h3>Email Leonard @ <b>Govenderleonard98@gmail.com</b></h3>
 
             <h3 class="mt-3">Club Fees: R450, Affiliation Fees: R500</h3>
           </v-card-text>

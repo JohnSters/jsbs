@@ -6,7 +6,6 @@
        data-timezone="Africa/Johannesburg"
        href="https://logwork.com/countdown-wko7"
     >JSBS Year End Function Show</a>
-    <h3 class="text-center purple--text">Venue: Sarel Van Zyl's Home</h3>
   </v-container>
 </template>
 
