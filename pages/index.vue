@@ -6,6 +6,10 @@
         Society of South Africa</a>
     </p>
 
+    <v-card class="pa-3 mt-3 mb-3 text-center purple lighten-5">
+      <CountDownTimer />
+    </v-card>
+
     <v-btn
       class="rounded-0 white--text hidden-md-and-up"
       href="https://www.showbudgies.co.za/shows/"
@@ -224,6 +228,6 @@ export default {
       { src: 'images/home/bird1.jpeg', title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart' },
       { src: 'images/home/bird2.jpeg', title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden' }
     ]
-  })
+  }),
 }
 </script>
