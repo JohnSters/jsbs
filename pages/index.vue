@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <v-img class="ma-auto" src="/logo.svg" width="300"/>
+    <v-img class="ma-auto mt-3 mb-3" src="/logo.svg" width="400" contain/>
     <p class="text-center mt-3">
       Affiliated to the <a href="https://www.showbudgies.co.za" target="_blank">Budgerigar
       Society of South Africa</a>
