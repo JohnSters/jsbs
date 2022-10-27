@@ -1,5 +1,17 @@
 <template>
-  <v-container>
+  <v-container fluid>
+    <v-card-title class="text-center justify-center py-6 hidden-md-and-up">
+      <h2 class="font-weight-bold basil--text">
+        Club Champions
+      </h2>
+    </v-card-title>
+
+    <v-card-title class="text-center justify-center py-6 hidden-sm-and-down">
+      <h3 class="font-weight-bold text-h2 basil--text">
+        Club Champions
+      </h3>
+    </v-card-title>
+
     <v-row>
       <v-col cols="12" sm="6" v-for="(item, id) in items" :key="id">
         <v-card class="pa-3" shaped>

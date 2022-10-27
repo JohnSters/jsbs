@@ -1,5 +1,16 @@
 <template>
-  <v-container>
+  <v-container fluid>
+    <v-card-title class="text-center justify-center py-6 hidden-md-and-up">
+      <h3 class="font-weight-bold basil--text">
+        Budgerigar Breeding
+      </h3>
+    </v-card-title>
+
+    <v-card-title class="text-center justify-center py-6 hidden-sm-and-down">
+      <h3 class="font-weight-bold text-h2 basil--text">
+        Budgerigar Breeding
+      </h3>
+    </v-card-title>
 
     <v-toolbar color="grey" class="mt-3" flat><h3 class="white--text">Albino</h3></v-toolbar>
 

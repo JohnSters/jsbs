@@ -7,14 +7,30 @@
       fixed
     >
       <v-btn
-        class="rounded-xl purple darken-4"
+        class="rounded-xl purple darken-4 hidden-md-and-up"
+        @click="drawer = !drawer"
+        text
+        x-small
+      >
+        Main Menu
+      </v-btn>
+      <v-btn
+        class="rounded-xl purple darken-4 hidden-sm-and-down"
         @click="drawer = !drawer"
         text
       >
         Main Menu
       </v-btn>
       <v-btn
-        class="rounded-xl purple darken-3 ml-2"
+        class="rounded-xl purple darken-3 ml-2 hidden-md-and-up"
+        to="/society"
+        text
+        x-small
+      >
+        The Society
+      </v-btn>
+      <v-btn
+        class="rounded-xl purple darken-3 ml-2 hidden-sm-and-down"
         to="/society"
         text
       >

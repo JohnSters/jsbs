@@ -1,9 +1,15 @@
 <template>
-  <v-container>
-    <v-card-title class="text-center justify-center py-6">
-      <h1 class="font-weight-bold text-h2 basil--text">
-        Hobbies
-      </h1>
+  <v-container fluid>
+    <v-card-title class="text-center justify-center py-6 hidden-md-and-up">
+      <h2 class="font-weight-bold basil--text">
+        JSBS Hobbies
+      </h2>
+    </v-card-title>
+
+    <v-card-title class="text-center justify-center py-6 hidden-sm-and-down">
+      <h3 class="font-weight-bold text-h2 basil--text">
+        JSBS Hobbies
+      </h3>
     </v-card-title>
 
     There are 5 area shows presented across South Africa in Western Cape, Eastern Cape, Free State, Kwa-Zulu Natal, and Gauteng. Additional to this a South African National Championship Show is presented in one of the areas each year.
