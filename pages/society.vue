@@ -31,12 +31,12 @@
           color="basil"
           flat
         >
-          <v-card class="ma-6 pa-3 text-center">
+          <v-card class="ma-1 mt-2 pa-3 text-center">
             <CountDownTimer/>
             <h2>Venue: Sarel Van Zyl's Residence</h2>
             <p>email: Leonard @ <b>Govenderleonard98@gmail.com</b> for more info.</p>
           </v-card>
-          <v-card class="ma-6 pa-3">
+          <v-card class="ma-1 pa-3">
             Other Upcoming Events
             <ul>
               <li>JSBS Derby birds 1 to 20 of 2022</li>

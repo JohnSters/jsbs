@@ -15,7 +15,7 @@
       </v-btn>
       <v-btn
         class="rounded-xl purple darken-3 ml-2"
-        href="/society"
+        to="/society"
         text
       >
         The Society
