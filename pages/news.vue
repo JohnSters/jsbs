@@ -11,7 +11,21 @@
         JSBS News
       </h3>
     </v-card-title>
-    <p class="text-center">Coming Soon</p>
+    <v-row>
+      <v-col cols="12" sm="4">
+        <v-card class="pa-6" shaped>
+          <v-card-title>Club Shows</v-card-title>
+          <h3>Upcomming Show</h3>
+          <p>JSBS Year End Function: <b>November 19th, 2022 10:00 am</b></p>
+          <p>Other Upcoming Shows -</p>
+          <ul>
+            <li>JSBS Derby birds 1 to 20 of 2022</li>
+            <li>JSBS Club show all 2022 rung birds eligible </li>
+            <li>Judge for the day will be announced</li>
+          </ul>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

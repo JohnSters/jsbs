@@ -10,7 +10,7 @@
         class="rounded-xl purple darken-4 hidden-md-and-up"
         @click="drawer = !drawer"
         text
-        x-small
+        small
       >
         Main Menu
       </v-btn>
@@ -25,7 +25,7 @@
         class="rounded-xl purple darken-3 ml-2 hidden-md-and-up"
         to="/society"
         text
-        x-small
+        small
       >
         The Society
       </v-btn>
