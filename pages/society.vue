@@ -39,7 +39,7 @@
         >
           <v-card class="ma-1 mt-2 pa-3 text-center">
             <CountDownTimer/>
-            <h2>Venue: Sarel Van Zyl's Residence</h2>
+            <h2>Venue: Attie Van Staden’s Residence</h2>
             <p>email: Leonard @ <b>Govenderleonard98@gmail.com</b> for more info.</p>
           </v-card>
           <v-card class="ma-1 pa-3">

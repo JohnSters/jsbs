@@ -1,11 +1,7 @@
 <template>
   <v-container>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
-    <a class="countdown-timer"
-       data-date="2022-11-19 10:00"
-       data-timezone="Africa/Johannesburg"
-       href="https://logwork.com/countdown-wko7"
-    >JSBS Year End Function Show</a>
+    <a href="https://logwork.com/countdown-y6xw" class="countdown-timer" data-timezone="Africa/Johannesburg" data-date="2023-04-15 09:32">The 2023 GP Championship Show</a>
   </v-container>
 </template>
 

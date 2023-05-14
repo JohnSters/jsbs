@@ -1,13 +1,17 @@
 <template>
   <v-container fluid>
-    <v-img class="ma-auto mt-3 mb-3" src="/logo.svg" width="400" contain/>
+    <v-img class="ma-auto mt-3" src="/logo.svg" width="350" contain/>
     <p class="text-center mt-3">
       Affiliated to the <a href="https://www.showbudgies.co.za" target="_blank">Budgerigar
       Society of South Africa</a>
     </p>
 
+    <SliderB />
+    <HomeSlider />
+
     <v-card class="pa-3 mt-3 mb-3 text-center purple lighten-5">
-      <CountDownTimer/>
+<!--      <CountDownTimer/>-->
+      <a href="https://showbudgies.co.za/shows/">Click here for details and documentation.</a>
     </v-card>
 
     <v-btn
@@ -30,77 +34,6 @@
     </v-btn>
 
     <h2 class="text-center font-weight-light purple lighten-2 white--text">Competition Winners</h2>
-
-    <v-row class="hidden-lg-and-up">
-      <v-col
-        v-for="(image, id) in images"
-        :key="id"
-        class="d-flex child-flex"
-        cols="12"
-        sm="3"
-      >
-        <v-card class="pa-3 mb-3">
-          <v-img
-            :src="image.src"
-            aspect-ratio="1"
-            class="purple lighten-5"
-            contain
-            height="350"
-          >
-            <template v-slot:placeholder>
-              <v-row
-                align="center"
-                class="fill-height ma-0"
-                justify="center"
-              >
-                <v-progress-circular
-                  color="grey lighten-5"
-                  indeterminate
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-
-          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a></p>
-
-        </v-card>
-      </v-col>
-    </v-row>
-
-    <v-row class="hidden-md-and-down">
-      <v-col
-        v-for="(image, id) in images"
-        :key="id"
-        class="d-flex child-flex"
-        cols="3"
-      >
-        <v-card class="pa-3 mb-3">
-          <v-img
-            :src="image.src"
-            aspect-ratio="1"
-            class="purple lighten-5"
-            contain
-            height="550"
-          >
-            <template v-slot:placeholder>
-              <v-row
-                align="center"
-                class="fill-height ma-0"
-                justify="center"
-              >
-                <v-progress-circular
-                  color="grey lighten-5"
-                  indeterminate
-                ></v-progress-circular>
-              </v-row>
-            </template>
-          </v-img>
-
-          <p class="text-center mt-3">{{ image.title }} <br> <a :href="image.src" target="_blank">View Image</a></p>
-
-        </v-card>
-      </v-col>
-    </v-row>
 
     <v-card class="pa-3" flat>
       <h2 class="blue-grey--text text-center mt-3">
@@ -197,7 +130,7 @@
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 060-817-5677
+              : 060-886-0108
             </h4>
           </v-card>
         </v-col>
@@ -219,38 +152,14 @@ export default {
       'orange'
     ],
     images: [
-      {
-        src: 'images/home/bird3.jpeg',
-        title: 'Best Bird in Show - Pierre '
-      },
-      {
-        src: 'images/home/bird4.jpeg',
-        title: 'Best Opposite Sex - Pierre '
-      },
-      {
-        src: 'images/home/bird5.jpeg',
-        title: 'Best Intermediate + Best Derby - Henk'
-      },
-      {
-        src: 'images/home/bird6.jpeg',
-        title: 'Best Opposite Sex - Retha'
-      },
-      {
-        src: 'images/home/bird7.jpeg',
-        title: 'Best Novice - Preggy/Kaiden'
-      },
-      {
-        src: 'images/home/bird8.jpeg',
-        title: 'Best Novice Opposite Sex - Sarel'
-      },
-      {
-        src: 'images/home/bird1.jpeg',
-        title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart'
-      },
-      {
-        src: 'images/home/bird2.jpeg',
-        title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden'
-      }
+      { src: 'images/home/bird3.jpeg', title: 'Best Bird in Show - Pierre ' },
+      { src: 'images/home/bird4.jpeg', title: 'Best Opposite Sex - Pierre ' },
+      { src: 'images/home/bird5.jpeg', title: 'Best Intermediate + Best Derby - Henk' },
+      { src: 'images/home/bird6.jpeg', title: 'Best Opposite Sex - Retha' },
+      { src: 'images/home/bird7.jpeg', title: 'Best Novice - Preggy/Kaiden' },
+      { src: 'images/home/bird8.jpeg', title: 'Best Novice Opposite Sex - Sarel' },
+      { src: 'images/home/bird1.jpeg', title: 'Grey Green Cock Derby winner 17th Oct 2022 Pierre Swart' },
+      { src: 'images/home/bird2.jpeg', title: 'Yellowface hen Derby opposite sex and best Novice 17th October 2022 Preggy&Kaiden' }
     ]
   })
 }

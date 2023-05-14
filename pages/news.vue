@@ -14,10 +14,20 @@
     <v-row>
       <v-col cols="12" sm="4">
         <v-card class="pa-6" shaped>
-          <v-card-title>Club Shows</v-card-title>
-          <h3>Upcomming Show</h3>
-          <p>JSBS Year End Function: <b>November 19th, 2022 10:00 am</b></p>
-          <p>Other Upcoming Shows -</p>
+          <h3 class="purple--text">JSBS 2023 Mini Barhead show and club meeting</h3>
+          <hr class="ma-3">
+          <p><b>Date:</b> 11 February 2023</p>
+          <p><b>Venue:</b> Attie Van Staden’s Residence</p>
+          <p><b>A mini show will be held.</b></p>
+          <p>All 2023 Barhead birds are permitted to enter the show.</p>
+          <p>Judge will be Pierre Swart.</p>
+          <p>More details to follow closer to the date</p>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="4">
+        <v-card class="pa-6" shaped>
+          <h3 class="purple--text">Other Upcoming Shows -</h3>
+          <hr class="ma-3">
           <ul>
             <li>JSBS Derby birds 1 to 20 of 2022</li>
             <li>JSBS Club show all 2022 rung birds eligible </li>

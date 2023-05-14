@@ -78,82 +78,158 @@
           </v-card-text>
         </v-card>
 
-        <v-row class="mt-6">
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1201.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1202.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
-              Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1203.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Novice on Show - Philip Jacobs</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1204.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Novice Opposite Sex on Show - Rynier Burger</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1301.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1302.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
-              Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1401.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show and Best Derby
-              Overall - Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1402.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Nel Brothers
-              Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1403.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Opposite Sex JSBS - Mike Davies.</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1501.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1502.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS and Best Derby Novice JSBS on Show - Cyril
-              Nienaber</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1601.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1602.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS - Nel Brothers Stud</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1701.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1803.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Bird on Show - Pierre Swart</p>
-          </v-col>
-          <v-col cols="12" sm="3">
-            <v-img contain height="400" src="/images/budgies/derby/d1901.jpg"></v-img>
-            <p class="text-center mt-2">Best Derby Resplendent Bird Aviaries.</p>
-          </v-col>
-        </v-row>
-
+        <v-expansion-panels>
+          <v-expansion-panel>
+            <v-expansion-panel-header color="purple" class="white--text">
+              2022 Derby Show Winning Bird Photos (Click to Open)
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row class="mt-6">
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">2022</h3>
+                    <v-img contain height="400" src="/images/derby2022/best-derby.jpeg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show - Pierre Swart</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">2022</h3>
+                    <v-img contain height="400" src="/images/derby2022/best-intermediate.jpeg"></v-img>
+                    <p class="text-center mt-2">Best Intermediate Derby - Retha van Deventer</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">2022</h3>
+                    <v-img contain height="400" src="/images/derby2022/best-novice.jpeg"></v-img>
+                    <p class="text-center mt-2">Best Derby Novice - Sarel v Zyl</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">2022</h3>
+                    <v-img contain height="400" src="/images/derby2022/best-sex.jpeg"></v-img>
+                    <p class="text-center mt-2">Best Opposite Sex -  Preggy Chetty</p>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+          <v-expansion-panel>
+            <v-expansion-panel-header color="purple" class="white--text">
+              2021 Derby Shows Winning Birds Photos (Click to Open)
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row class="mt-3">
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1201.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1202.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
+                      Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1203.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Novice on Show - Philip Jacobs</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1204.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Novice Opposite Sex on Show - Rynier Burger</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1301.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1302.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
+                      Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1401.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show and Best Derby
+                      Overall - Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1402.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Nel Brothers
+                      Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1403.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Opposite Sex JSBS - Mike Davies.</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1501.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1502.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS and Best Derby Novice JSBS on Show - Cyril
+                      Nienaber</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1601.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1602.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS - Nel Brothers Stud</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1701.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1803.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Bird on Show - Pierre Swart</p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <v-img contain height="400" src="/images/budgies/derby/d1901.jpg"></v-img>
+                    <p class="text-center mt-2">Best Derby Resplendent Bird Aviaries.</p>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+        </v-expansion-panels>
       </v-tab-item>
 
       <v-tab-item>
-
         <v-card class="pa-3">
           <v-row>
             <v-col cols="12" sm="3">
@@ -167,7 +243,7 @@
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
                 <p class="display-1 font-weight-light">Mini Show Results 2022</p>
                 <p>Show results coming soon</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>Coming Soon</v-btn>
+                <v-btn block class="purple darken-1" to="/mini/MiniShow2022" depressed rounded>View</v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
@@ -340,11 +416,11 @@ export default {
       {
         year: '2022',
         beginners: 'X',
-        novice: '',
-        intermediate: '',
-        champion: '',
-        opposite: '',
-        show: 'Coming Soon'
+        novice: 'Sarel v Zyl',
+        intermediate: 'Retha van Deventer',
+        champion: 'Pierre Swart',
+        opposite: 'Preggy Chetty',
+        show: 'Pierre Swart'
       },
       {
         year: '2021',
