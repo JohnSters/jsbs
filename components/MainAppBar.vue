@@ -151,13 +151,11 @@ export default {
     drawer: null,
     group: null,
     contacts: [
-      { name: 'Pierre Swart', office: 'Chairman', number: '079-797-5265' },
-      { name: 'Mike Davies', office: 'Vice Chairman', number: '082-056-4734' },
-      { name: 'Morne Bothma', office: 'Treasurer', number: '082-867-4352' },
-      { name: 'Leonard Govender', office: 'Secretary', number: '060-817-5677' },
-      { name: 'Henk Potgieter', office: 'Additional Member', number: '082-577-6456' },
-      { name: 'Preggy Chetty', office: 'Additional Member', number: '083-375-4776' },
-      { name: 'Wimpie vd Heever', office: 'Additional Member', number: '083-507-0187' }
+      { name: 'Attie van Staden', office: 'Chairman', number: '082-382-5925' },
+      { name: 'Preggy Chetty', office: 'Vice Chairman', number: '083-375-4776' },
+      { name: 'Michael Borcherds', office: 'Treasurer', number: '082-441-7305' },
+      { name: 'Judy Westmaas', office: 'Secretary', number: '067-054-9992' },
+      { name: 'Todd Young', office: 'Additional Member', number: '067-640-7504' }
     ],
     menu: [
       {

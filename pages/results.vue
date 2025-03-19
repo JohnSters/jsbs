@@ -33,45 +33,45 @@
         >
           <v-card-text>
             <v-simple-table>
-              <template v-slot:default>
+              <template #default>
                 <thead>
-                <tr>
-                  <th class="text-left">
-                    Derby Show
-                  </th>
-                  <th class="text-left">
-                    Best Derby Beginners
-                  </th>
-                  <th class="text-left">
-                    Best Derby Novice
-                  </th>
-                  <th class="text-left">
-                    Best Derby Intermediate
-                  </th>
-                  <th class="text-left">
-                    Best Derby Champion
-                  </th>
-                  <th class="text-left">
-                    Best Derby Opposite Sex
-                  </th>
-                  <th class="text-left">
-                    Best Derby on Show
-                  </th>
-                </tr>
+                  <tr>
+                    <th class="text-left">
+                      Derby Show
+                    </th>
+                    <th class="text-left">
+                      Best Derby Beginners
+                    </th>
+                    <th class="text-left">
+                      Best Derby Novice
+                    </th>
+                    <th class="text-left">
+                      Best Derby Intermediate
+                    </th>
+                    <th class="text-left">
+                      Best Derby Champion
+                    </th>
+                    <th class="text-left">
+                      Best Derby Opposite Sex
+                    </th>
+                    <th class="text-left">
+                      Best Derby on Show
+                    </th>
+                  </tr>
                 </thead>
                 <tbody>
-                <tr
-                  v-for="item in derby"
-                  :key="item.name"
-                >
-                  <td>{{ item.year }}</td>
-                  <td>{{ item.beginners }}</td>
-                  <td>{{ item.novice }}</td>
-                  <td>{{ item.intermediate }}</td>
-                  <td>{{ item.champion }}</td>
-                  <td>{{ item.opposite }}</td>
-                  <td>{{ item.show }}</td>
-                </tr>
+                  <tr
+                    v-for="item in derby"
+                    :key="item.name"
+                  >
+                    <td>{{ item.year }}</td>
+                    <td>{{ item.beginners }}</td>
+                    <td>{{ item.novice }}</td>
+                    <td>{{ item.intermediate }}</td>
+                    <td>{{ item.champion }}</td>
+                    <td>{{ item.opposite }}</td>
+                    <td>{{ item.show }}</td>
+                  </tr>
                 </tbody>
               </template>
             </v-simple-table>
@@ -81,36 +81,128 @@
         <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header color="purple" class="white--text">
+              2023 Derby Show Winning Bird Photos (Click to Open)
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row class="mt-6">
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/best-in-show_molkentin_stud.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show - Molkentin Stud
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/best-intermediate-on-show_Henk_Potgieter.jpg" />
+                    <p class="text-center mt-2">
+                      Best Intermediate Derby - Henk Potgieter
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/best-novice_Todd.jpg" />
+                    <p class="text-center mt-2">
+                      Best Novice - Todd Young
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/second-best-champ-opp-sex_Mike_Davis.jpg" />
+                    <p class="text-center mt-2">
+                      Second best champ & opposite sex -  Mike Davies
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/2023_best_champion.jpg" />
+                    <p class="text-center mt-2">
+                      Best Champion - Holger Molkentin
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2023 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2023/2023_best_intermediate.jpg" />
+                    <p class="text-center mt-2">
+                      2023 Best Intermediate
+                    </p>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+
+          <v-expansion-panel>
+            <v-expansion-panel-header color="purple" class="white--text">
               2022 Derby Show Winning Bird Photos (Click to Open)
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <v-row class="mt-6">
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <h3 class="purple white--text text-center ma-3">2022</h3>
-                    <v-img contain height="400" src="/images/derby2022/best-derby.jpeg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show - Pierre Swart</p>
+                    <h3 class="purple white--text text-center ma-3">
+                      2022
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2022/best-derby.jpeg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show - Pierre Swart
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <h3 class="purple white--text text-center ma-3">2022</h3>
-                    <v-img contain height="400" src="/images/derby2022/best-intermediate.jpeg"></v-img>
-                    <p class="text-center mt-2">Best Intermediate Derby - Retha van Deventer</p>
+                    <h3 class="purple white--text text-center ma-3">
+                      2022
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2022/best-intermediate.jpeg" />
+                    <p class="text-center mt-2">
+                      Best Intermediate Derby - Retha van Deventer
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <h3 class="purple white--text text-center ma-3">2022</h3>
-                    <v-img contain height="400" src="/images/derby2022/best-novice.jpeg"></v-img>
-                    <p class="text-center mt-2">Best Derby Novice - Sarel v Zyl</p>
+                    <h3 class="purple white--text text-center ma-3">
+                      2022
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2022/best-novice.jpeg" />
+                    <p class="text-center mt-2">
+                      Best Derby Novice - Sarel v Zyl
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <h3 class="purple white--text text-center ma-3">2022</h3>
-                    <v-img contain height="400" src="/images/derby2022/best-sex.jpeg"></v-img>
-                    <p class="text-center mt-2">Best Opposite Sex -  Preggy Chetty</p>
+                    <h3 class="purple white--text text-center ma-3">
+                      2022
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2022/best-sex.jpeg" />
+                    <p class="text-center mt-2">
+                      Best Opposite Sex -  Preggy Chetty
+                    </p>
                   </v-card>
                 </v-col>
               </v-row>
@@ -124,103 +216,135 @@
               <v-row class="mt-3">
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1201.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1201.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1202.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
-                      Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1202.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
+                      Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1203.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Novice on Show - Philip Jacobs</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1203.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Novice on Show - Philip Jacobs
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1204.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Novice Opposite Sex on Show - Rynier Burger</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1204.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Novice Opposite Sex on Show - Rynier Burger
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1301.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1301.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show and Best Derby Champion on Show - Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1302.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
-                      Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1302.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Opposite Sex on Show and Best Derby Champion Opposite Sex on Show -
+                      Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1401.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show and Best Derby
-                      Overall - Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1401.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show JSBS and Best Derby Champion JSBS on Show and Best Derby
+                      Overall - Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1402.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Nel Brothers
-                      Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1402.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Nel Brothers
+                      Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1403.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Opposite Sex JSBS - Mike Davies.</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1403.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Opposite Sex JSBS - Mike Davies.
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1501.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1501.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1502.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS and Best Derby Novice JSBS on Show - Cyril
-                      Nienaber</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1502.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Opposite Sex on Show JSBS and Best Derby Novice JSBS on Show - Cyril
+                      Nienaber
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1601.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1601.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1602.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Opposite Sex on Show JSBS - Nel Brothers Stud</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1602.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Opposite Sex on Show JSBS - Nel Brothers Stud
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1701.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1701.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby on Show JSBS and Best Derby Champion JSBS on Show - Pierre Swart
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1803.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Bird on Show - Pierre Swart</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1803.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Bird on Show - Pierre Swart
+                    </p>
                   </v-card>
                 </v-col>
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
-                    <v-img contain height="400" src="/images/budgies/derby/d1901.jpg"></v-img>
-                    <p class="text-center mt-2">Best Derby Resplendent Bird Aviaries.</p>
+                    <v-img contain height="400" src="/images/budgies/derby/d1901.jpg" />
+                    <p class="text-center mt-2">
+                      Best Derby Resplendent Bird Aviaries.
+                    </p>
                   </v-card>
                 </v-col>
               </v-row>
@@ -234,161 +358,261 @@
           <v-row>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2023</p>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2023
+                </p>
                 <p>Show results coming soon</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>Coming Soon</v-btn>
+                <v-btn block class="purple darken-1" depressed disabled rounded>
+                  Coming Soon
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2022</p>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2022
+                </p>
                 <p>Show results coming soon</p>
-                <v-btn block class="purple darken-1" to="/mini/MiniShow2022" depressed rounded>View</v-btn>
+                <v-btn block class="purple darken-1" to="/mini/MiniShow2022" depressed rounded>
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2021</p>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2021
+                </p>
                 <p>Cancelled due to Covid</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>cancelled</v-btn>
+                <v-btn block class="purple darken-1" depressed disabled rounded>
+                  cancelled
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2020</p>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2020
+                </p>
                 <p>Cancelled due to Covid</p>
-                <v-btn block class="purple darken-1" depressed disabled rounded>cancelled</v-btn>
+                <v-btn block class="purple darken-1" depressed disabled rounded>
+                  cancelled
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2019</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2019">View</v-btn>
-              </v-card>
-            </v-col>
-
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2018</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2018">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2017</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2017">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2016</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2016">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2015</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2015">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2019
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2019">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
 
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2014</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2014">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2018
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2018">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2013</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2013">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2017
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2017">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2012</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2012">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2016
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2016">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2011</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2011">View</v-btn>
-              </v-card>
-            </v-col>
-
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2010</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2010">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2009</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2009">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2008</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2008">View</v-btn>
-              </v-card>
-            </v-col>
-            <v-col cols="12" sm="3">
-              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2007</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2007">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2015
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2015">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
 
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2006</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2006">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2014
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2014">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2005</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2005">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2013
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2013">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2004</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2004">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2012
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2012">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2003</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2003">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2011
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2011">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
 
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2002</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2002">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2010
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2010">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2001</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2001">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2009
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2009">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 2000</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2000">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2008
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2008">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
             <v-col cols="12" sm="3">
               <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
-                <p class="display-1 font-weight-light">Mini Show Results 1999</p>
-                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow1999">View</v-btn>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2007
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2007">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2006
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2006">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2005
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2005">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2004
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2004">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2003
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2003">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2002
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2002">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2001
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2001">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 2000
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow2000">
+                  View
+                </v-btn>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="3">
+              <v-card class="pa-3 purple lighten-1 text-center" dark flat shaped>
+                <p class="display-1 font-weight-light">
+                  Mini Show Results 1999
+                </p>
+                <v-btn block class="purple darken-1" depressed rounded to="/mini/MiniShow1999">
+                  View
+                </v-btn>
               </v-card>
             </v-col>
           </v-row>
@@ -407,11 +631,11 @@ export default {
       {
         year: '2023',
         beginners: 'X',
-        novice: '',
-        intermediate: '',
-        champion: '',
-        opposite: '',
-        show: 'Coming Soon'
+        novice: 'Todd Young',
+        intermediate: 'Henk Potgieter',
+        champion: 'Holger Molkentin',
+        opposite: 'Mike Davies',
+        show: 'Molkentin Stud'
       },
       {
         year: '2022',

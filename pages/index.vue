@@ -1,17 +1,17 @@
 <template>
   <v-container fluid>
-    <v-img class="ma-auto mt-3" src="/logo.svg" width="350" contain/>
+    <v-img class="ma-auto mt-3" src="/logo.svg" width="350" contain />
     <p class="text-center mt-3">
       Affiliated to the <a href="https://www.showbudgies.co.za" target="_blank">Budgerigar
-      Society of South Africa</a>
+        Society of South Africa</a>
     </p>
 
+    <SliderE />
+    <SliderD />
     <SliderC />
-    <SliderB />
-    <HomeSlider />
 
     <v-card class="pa-3 mt-3 mb-3 text-center purple lighten-5">
-<!--      <CountDownTimer/>-->
+      <!--      <CountDownTimer/>-->
       <a href="https://showbudgies.co.za/shows/">Click here for details and documentation.</a>
     </v-card>
 
@@ -34,7 +34,9 @@
       SA Show Results
     </v-btn>
 
-    <h2 class="text-center font-weight-light purple lighten-2 white--text">Competition Winners</h2>
+    <h2 class="text-center font-weight-light purple lighten-2 white--text">
+      Competition Winners
+    </h2>
 
     <v-card class="pa-3" flat>
       <h2 class="blue-grey--text text-center mt-3">
@@ -42,12 +44,12 @@
       </h2>
       <h3 class="font-weight-light blue-grey--text text-center">
         It is with great pride to announce that <b
-        class="font-weight-bold"
-      >Reinhard Molkentin</b> has won the
+          class="font-weight-bold"
+        >Reinhard Molkentin</b> has won the
         <br>WBO 2021
         <b>Gould</b> Award.
       </h3>
-      <v-img class="ma-auto" src="/images/reinhard.png" width="350"/>
+      <v-img class="ma-auto" src="/images/reinhard.png" width="350" />
       <h3 class="font-weight-light blue-grey--text text-center mt-3">
         "Congratulations to Reinhard on this prestigious
         award."
@@ -77,13 +79,13 @@
               Chairman
             </h5>
             <h4 class="text-center font-weight-light">
-              Pierre Swart
+              Preggy Chetty
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 079-797-5265
+              : 082-382-5925
             </h4>
           </v-card>
         </v-col>
@@ -93,13 +95,13 @@
               Vice Chairman
             </h5>
             <h4 class="text-center font-weight-light">
-              Mike Davies
+              Preggy Chetty
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 082-056-4734
+              :083-375-4776
             </h4>
           </v-card>
         </v-col>
@@ -109,13 +111,13 @@
               Treasurer
             </h5>
             <h4 class="text-center font-weight-light">
-              Morne Bothma
+              Michael Borchers
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 082-867-4352
+              : 082-441-7305
             </h4>
           </v-card>
         </v-col>
@@ -125,13 +127,13 @@
               Secretary
             </h5>
             <h4 class="text-center font-weight-light">
-              Leonard Govender
+              Judy Westmaas
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 060-886-0108
+              : 067-054-9992
             </h4>
           </v-card>
         </v-col>

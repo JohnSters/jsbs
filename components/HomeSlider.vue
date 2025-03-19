@@ -74,6 +74,18 @@ export default {
   data: () => ({
     model: null,
     items: [
+      { src: 'images/minishow2024/best-albino-on-show.jpg', show: '13 April 2024', title: 'Best Albino on Show', name: 'Ronnie Riep' },
+      { src: 'images/minishow2024/best-violet-on-show.jpg', show: '13 April 2024', title: 'Best Violet on Show, Best Champion', name: 'Marius Heydenrych' },
+      { src: 'images/minishow2024/best-suffused.jpg', show: '13 April 2024', title: 'Best suffused', name: 'Todd Young' },
+      { src: 'images/minishow2024/best-opposite-sex.jpg', show: '13 April 2024', title: 'Best opposite sex rare, Best Rec Pied', name: 'PC Birds' },
+      { src: 'images/minishow2024/runner-up-to-best-rare.jpg', show: '13 April 2024', title: 'Runner up to Best Rare, Best Texas Clearbody', name: 'PC Birds' },
+      { src: 'images/minishow2024/best-rare-on-show.jpg', show: '13 April 2024', title: 'Best Rare on Show, Best  Golden Face, Best Novice', name: 'Todd Young' },
+
+      { src: 'images/home/2023 SA National Best Bird - Molkentin Stud.jpg', show: 'SA National', title: '2023 SA National Best Bird', name: 'Molkentin Stud' },
+      { src: 'images/home/2023 SA National Best Opposite sex - Pierre Swart.jpg', show: 'SA National', title: 'SA National Best Opposite sex', name: 'Pierre Swart' },
+      { src: 'images/home/BNYP.jpg', show: 'SA National', title: 'Best Novice EC area show', name: 'Munzir Patel' },
+      { src: 'images/home/BYBPS.jpg', show: 'SA National', title: 'Best Young bird EC area show', name: 'Pierre Swart' },
+
       { src: 'images/minishow2022/best-show.jpeg', show: 'JSBS Mini show held 19 November 2022', title: 'Best in Show (Online Show)', name: 'Imran Majiet (online show)' },
       { src: 'images/minishow2022/best-derby.jpeg', show: 'JSBS Mini show held 19 November 2022', title: 'Best in Show and Best Champion', name: 'Molkentin Stud' },
       { src: 'images/minishow2022/best-intermediate.jpeg', show: 'JSBS Mini show held 19 November 2022', title: 'Best Intermediate', name: 'Henk Potgieter' },

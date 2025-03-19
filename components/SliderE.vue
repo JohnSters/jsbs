@@ -3,7 +3,7 @@
     class="mx-auto mb-3"
     elevation="0"
   >
-    <h4 class="text-center purple darken-3 white--text">2023 JSBS GP Nationals</h4>
+    <h4 class="text-center purple darken-3 white--text">JSBS mini show 13 April 2024</h4>
     <v-slide-group
       v-model="model"
       show-arrows
@@ -74,12 +74,12 @@ export default {
   data: () => ({
     model: null,
     items: [
-      { src: 'images/gp-nationals2023/best-on-show-gpn-2023.jpg', show: 'GP Nationals', title: 'Best on show - Gauteng Nationals 2023', name: 'Molketin Stud' },
-      { src: 'images/gp-nationals2023/best-opposite-sex-gpn-2023.jpg', show: 'GP Nationals', title: 'Gauteng National 2023 best opp sex on show', name: 'Pierre Swart' },
-      { src: 'images/gp-nationals2023/best-color-year-gpn-2023.jpg', show: 'GP Nationals', title: 'Best color of the Year - Yellowface', name: 'Pierre Swart' },
-      { src: 'images/gp-nationals2023/best-rare-on-show-gpn-2023.jpg', show: 'GP Nationals', title: 'Best Rare on Show', name: 'Pierre Swart' },
-      { src: 'images/gp-nationals2023/best-clearwing-on-show-gpn-2023.jpg', show: 'GP Nationals', title: 'Best Clearwing on Show', name: 'Atom Stud' },
-      { src: 'images/gp-nationals2023/best-albino-on-show-gpn-2023.jpg', show: 'GP Nationals', title: 'Best Albino On Show', name: 'Van der Heever Stud' }
+      { src: 'images/minishow2024/best-albino-on-show.jpg', show: '13 April 2024', title: 'Best Albino on Show', name: 'Ronnie Riep' },
+      { src: 'images/minishow2024/best-violet-on-show.jpg', show: '13 April 2024', title: 'Best Violet on Show, Best Champion', name: 'Marius Heydenrych' },
+      { src: 'images/minishow2024/best-suffused.jpg', show: '13 April 2024', title: 'Best suffused', name: 'Todd Young' },
+      { src: 'images/minishow2024/best-opposite-sex.jpg', show: '13 April 2024', title: 'Best opposite sex rare, Best Rec Pied', name: 'PC Birds' },
+      { src: 'images/minishow2024/runner-up-to-best-rare.jpg', show: '13 April 2024', title: 'Runner up to Best Rare, Best Texas Clearbody', name: 'PC Birds' },
+      { src: 'images/minishow2024/best-rare-on-show.jpg', show: '13 April 2024', title: 'Best Rare on Show, Best  Golden Face, Best Novice', name: 'Todd Young' }
     ]
   })
 }
