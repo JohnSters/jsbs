@@ -6,6 +6,7 @@
         Society of South Africa</a>
     </p>
 
+    <SliderF />
     <SliderE />
     <SliderD />
     <SliderC />
@@ -85,7 +86,7 @@
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 082-382-5925
+              : 083 375 4776
             </h4>
           </v-card>
         </v-col>
@@ -95,13 +96,13 @@
               Vice Chairman
             </h5>
             <h4 class="text-center font-weight-light">
-              Preggy Chetty
+              Michael Borcherds
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              :083-375-4776
+              :082 441 7305
             </h4>
           </v-card>
         </v-col>
@@ -111,7 +112,7 @@
               Treasurer
             </h5>
             <h4 class="text-center font-weight-light">
-              Michael Borchers
+              Michael Borcherds
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
@@ -127,13 +128,13 @@
               Secretary
             </h5>
             <h4 class="text-center font-weight-light">
-              Judy Westmaas
+              Todd Young
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              : 067-054-9992
+              : 067 640 7504
             </h4>
           </v-card>
         </v-col>
@@ -143,6 +144,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'IndexPage',
   data: () => ({

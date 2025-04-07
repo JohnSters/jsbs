@@ -151,10 +151,10 @@ export default {
     drawer: null,
     group: null,
     contacts: [
-      { name: 'Attie van Staden', office: 'Chairman', number: '082-382-5925' },
-      { name: 'Preggy Chetty', office: 'Vice Chairman', number: '083-375-4776' },
+      { name: 'Preggy Chetty', office: 'Chairman', number: '083 375 4776' },
+      { name: 'Michael Borcherds', office: 'Vice Chairman', number: '082 441 7305' },
       { name: 'Michael Borcherds', office: 'Treasurer', number: '082-441-7305' },
-      { name: 'Judy Westmaas', office: 'Secretary', number: '067-054-9992' },
+      { name: 'Todd Young', office: 'Secretary', number: '067 640 7504 ' },
       { name: 'Todd Young', office: 'Additional Member', number: '067-640-7504' }
     ],
     menu: [
