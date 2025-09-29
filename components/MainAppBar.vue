@@ -152,8 +152,8 @@ export default {
     group: null,
     contacts: [
       { name: 'Preggy Chetty', office: 'Chairman', number: '083 375 4776' },
-      { name: 'Michael Borcherds', office: 'Vice Chairman', number: '082 441 7305' },
-      { name: 'Michael Borcherds', office: 'Treasurer', number: '082-441-7305' },
+      { name: 'Attie Van Staaden', office: 'Vice Chairman', number: '082 382 5925' },
+      { name: 'Michael Borcherds', office: 'Treasurer', number: '082 441 7305' },
       { name: 'Todd Young', office: 'Secretary', number: '067 640 7504 ' },
       { name: 'Todd Young', office: 'Additional Member', number: '067-640-7504' }
     ],

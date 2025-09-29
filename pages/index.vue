@@ -96,13 +96,13 @@
               Vice Chairman
             </h5>
             <h4 class="text-center font-weight-light">
-              Michael Borcherds
+              Attie Van Staaden
             </h4>
             <h4 class="text-center font-weight-light">
               <v-icon class="mb-1" small>
                 mdi-cellphone
               </v-icon>
-              :082 441 7305
+              :082 382 5925
             </h4>
           </v-card>
         </v-col>
