@@ -13,12 +13,16 @@
     </v-card-title>
 
     <v-row>
-      <v-col cols="12" sm="6" v-for="(item, id) in items" :key="id">
+      <v-col v-for="(item, id) in items" :key="id" cols="12" sm="6">
         <v-card class="pa-3" shaped>
           <v-card width="300" class="ma-auto rounded-0 pa-2 purple lighten-5">
-            <v-img :src="item.img" height="300" contain></v-img>
+            <v-img :src="item.img" height="300" contain />
           </v-card>
-          <p class="mt-3 purple text-center darken-3 pa-1 rounded-xl white--text"><v-icon class="mr-3" dark>mdi-trophy</v-icon>{{ item.title }}</p>
+          <p class="mt-3 purple text-center darken-3 pa-1 rounded-xl white--text">
+            <v-icon class="mr-3" dark>
+              mdi-trophy
+            </v-icon>{{ item.title }}
+          </p>
           <b>{{ item.results }}</b>
           <ul>
             <li>{{ item.results_a }} <br> <b>{{ item.result_points_a }}</b></li>
@@ -26,7 +30,7 @@
             <li>{{ item.results_c }} <br> <b>{{ item.result_points_c }}</b></li>
           </ul>
           <hr class="ma-3 purple lighten-4">
-          <b>{{  item.shows }}</b>
+          <b>{{ item.shows }}</b>
           <ul>
             <li>{{ item.shows_a }} <br> <b>{{ item.shows_points_a }}</b></li>
             <li>{{ item.shows_b }} <br> <b>{{ item.shows_points_b }}</b></li>

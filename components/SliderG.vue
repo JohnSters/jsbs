@@ -4,7 +4,7 @@
     elevation="0"
   >
     <h4 class="text-center purple darken-3 white--text">
-      JSBS mini show 13 April 2024
+      Derby Show 2025
     </h4>
     <v-slide-group
       v-model="model"
@@ -17,11 +17,12 @@
         v-slot="{ active, toggle }"
       >
         <v-img
-          :color="active ? 'primary' : 'grey lighten-1'"
           :src="item.src"
           class="ma-1"
           height="375"
           width="220"
+          aspect-ratio="0.587"
+          contain
           @click="toggle"
         >
           <v-row
@@ -71,16 +72,12 @@
 
 <script>
 export default {
-  name: 'SliderB',
+  name: 'SliderG',
   data: () => ({
     model: null,
     items: [
-      { src: 'images/minishow2024/best-albino-on-show.jpg', show: '13 April 2024', title: 'Best Albino on Show', name: 'Ronnie Riep' },
-      { src: 'images/minishow2024/best-violet-on-show.jpg', show: '13 April 2024', title: 'Best Violet on Show, Best Champion', name: 'Marius Heydenrych' },
-      { src: 'images/minishow2024/best-suffused.jpg', show: '13 April 2024', title: 'Best suffused', name: 'Todd Young' },
-      { src: 'images/minishow2024/best-opposite-sex.jpg', show: '13 April 2024', title: 'Best opposite sex rare, Best Rec Pied', name: 'PC Birds' },
-      { src: 'images/minishow2024/runner-up-to-best-rare.jpg', show: '13 April 2024', title: 'Runner up to Best Rare, Best Texas Clearbody', name: 'PC Birds' },
-      { src: 'images/minishow2024/best-rare-on-show.jpg', show: '13 April 2024', title: 'Best Rare on Show, Best  Golden Face, Best Novice', name: 'Todd Young' }
+      { src: 'images/derby2025/best-opposite-sex.jpg', show: 'Derby Show 2025', title: 'Best Opposite Sex', name: 'Henk Potgieter' },
+      { src: 'images/derby2025/best-in-show.jpg', show: 'Derby Show 2025', title: 'Best in Show', name: 'Michael Borcherds' }
     ]
   })
 }

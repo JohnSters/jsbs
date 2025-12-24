@@ -38,7 +38,7 @@
           flat
         >
           <v-card class="ma-1 mt-2 pa-3 text-center">
-            <CountDownTimer/>
+            <CountDownTimer />
             <h2>Venue: Attie Van Staden’s Residence</h2>
             <p>email: Leonard @ <b>Govenderleonard98@gmail.com</b> for more info.</p>
           </v-card>
@@ -65,7 +65,9 @@
             <br>
             <h3>Email Leonard @ <b>Govenderleonard98@gmail.com</b></h3>
 
-            <h3 class="mt-3">Club Fees: R450, Affiliation Fees: R500</h3>
+            <h3 class="mt-3">
+              Club Fees: R450, Affiliation Fees: R500
+            </h3>
           </v-card-text>
         </v-card>
       </v-tab-item>
@@ -105,8 +107,10 @@
       <v-tab-item>
         <v-card>
           <h3>Important Dates</h3>
-          <p>The JSBS year program is set up at the beginning of each year so that all members can diarise these dates.
-            Year program is included in each months Monthly Minutes.</p>
+          <p>
+            The JSBS year program is set up at the beginning of each year so that all members can diarise these dates.
+            Year program is included in each months Monthly Minutes.
+          </p>
           <ul>
             <li>16 July - First Ring order date for next years rings</li>
             <li>31 August - JSBS subs due for next year</li>

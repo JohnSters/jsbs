@@ -6,6 +6,7 @@
         Society of South Africa</a>
     </p>
 
+    <SliderG />
     <SliderF />
     <SliderE />
     <SliderD />
@@ -144,7 +145,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'IndexPage',
   data: () => ({

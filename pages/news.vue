@@ -14,7 +14,9 @@
     <v-row>
       <v-col cols="12" sm="4">
         <v-card class="pa-6" shaped>
-          <h3 class="purple--text">JSBS 2023 Mini Barhead show and club meeting</h3>
+          <h3 class="purple--text">
+            JSBS 2023 Mini Barhead show and club meeting
+          </h3>
           <hr class="ma-3">
           <p><b>Date:</b> 11 February 2023</p>
           <p><b>Venue:</b> Attie Van Staden’s Residence</p>
@@ -26,7 +28,9 @@
       </v-col>
       <v-col cols="12" sm="4">
         <v-card class="pa-6" shaped>
-          <h3 class="purple--text">Other Upcoming Shows -</h3>
+          <h3 class="purple--text">
+            Other Upcoming Shows -
+          </h3>
           <hr class="ma-3">
           <ul>
             <li>JSBS Derby birds 1 to 20 of 2022</li>

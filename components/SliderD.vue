@@ -3,7 +3,9 @@
     class="mx-auto mb-3"
     elevation="0"
   >
-    <h4 class="text-center purple darken-3 white--text">JSBS mini show 09 December 2023</h4>
+    <h4 class="text-center purple darken-3 white--text">
+      JSBS mini show 09 December 2023
+    </h4>
     <v-slide-group
       v-model="model"
       show-arrows
@@ -32,8 +34,7 @@
                 v-if="active"
                 color="white"
                 size="40"
-                v-text="'mdi-trophy'"
-              ></v-icon>
+              />
             </v-scale-transition>
           </v-row>
         </v-img>
@@ -54,7 +55,7 @@
         >
           <h3 class="text-center hidden-sm-and-down blue-grey--text">
             {{ items[model].show }} <br>
-            {{ items[model].title }} | <a :href=items[model].src target="_blank">View Image</a> <br>
+            {{ items[model].title }} | <a :href="items[model].src" target="_blank">View Image</a> <br>
             {{ items[model].name }}
           </h3>
           <h4 class="text-center hidden-md-and-up blue-grey--text">
@@ -85,7 +86,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped >
+<style lang="css" scoped>
 .v-slide-group__next, .v-slide-group__prev {
   min-width: 30px !important;
   background: palegoldenrod;

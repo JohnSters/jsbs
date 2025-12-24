@@ -8,16 +8,16 @@
     >
       <v-btn
         class="rounded-xl purple darken-4 hidden-md-and-up"
-        @click="drawer = !drawer"
         text
         small
+        @click="drawer = !drawer"
       >
         Main Menu
       </v-btn>
       <v-btn
         class="rounded-xl purple darken-4 hidden-sm-and-down"
-        @click="drawer = !drawer"
         text
+        @click="drawer = !drawer"
       >
         Main Menu
       </v-btn>
@@ -36,7 +36,7 @@
       >
         The Society
       </v-btn>
-      <v-spacer></v-spacer>
+      <v-spacer />
       <v-btn
         class="mr-2 hidden-sm-and-down"
         href="https://www.showbudgies.co.za/shows/"
@@ -63,14 +63,17 @@
       <v-bottom-sheet
         v-model="sheet"
       >
-        <template v-slot:activator="{ on, attrs }">
-          <v-btn class="mr-2"
-                 v-bind="attrs"
-                 v-on="on"
-                 icon
-                 small
+        <template #activator="{ on, attrs }">
+          <v-btn
+            class="mr-2"
+            v-bind="attrs"
+            icon
+            small
+            v-on="on"
           >
-            <v-icon small>mdi-phone</v-icon>
+            <v-icon small>
+              mdi-phone
+            </v-icon>
           </v-btn>
         </template>
         <v-sheet
@@ -87,21 +90,35 @@
           </v-btn>
           <v-card>
             <v-simple-table>
-              <template>
+              <template slot="default">
                 <thead>
-                <tr>
-                  <th class="text-left">Society Members Name</th>
-                  <th class="text-left">Office</th>
-                  <th class="text-left">National Number</th>
-                </tr>
+                  <tr>
+                    <th class="text-left">
+                      Society Members Name
+                    </th>
+                    <th class="text-left">
+                      Office
+                    </th>
+                    <th class="text-left">
+                      National Number
+                    </th>
+                  </tr>
                 </thead>
                 <tbody>
-                <tr v-for="item in contacts"
-                    :key="item.name">
-                  <td class="text-left">{{ item.name }}</td>
-                  <td class="text-left">{{ item.office }}</td>
-                  <td class="text-left">{{ item.number }}</td>
-                </tr>
+                  <tr
+                    v-for="item in contacts"
+                    :key="item.name"
+                  >
+                    <td class="text-left">
+                      {{ item.name }}
+                    </td>
+                    <td class="text-left">
+                      {{ item.office }}
+                    </td>
+                    <td class="text-left">
+                      {{ item.number }}
+                    </td>
+                  </tr>
                 </tbody>
               </template>
             </v-simple-table>
@@ -110,7 +127,9 @@
       </v-bottom-sheet>
 
       <v-btn class="mr-2" icon to="/" small>
-        <v-icon small>mdi-home</v-icon>
+        <v-icon small>
+          mdi-home
+        </v-icon>
       </v-btn>
     </v-app-bar>
 
@@ -123,8 +142,10 @@
         dense
         nav
       >
-        <h3 class="blue-grey--text text-center">JSBS Navigation</h3>
-        <v-divider class="ma-3"></v-divider>
+        <h3 class="blue-grey--text text-center">
+          JSBS Navigation
+        </h3>
+        <v-divider class="ma-3" />
         <v-list-item-group
           v-for="(items, index) in menu"
           :key="index"

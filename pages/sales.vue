@@ -14,10 +14,14 @@
     <v-row>
       <v-col cols="12" sm="4">
         <v-card class="pa-6" shaped>
-          <v-img class="ma-auto" src="/images/logo-round.png" width="200" contain></v-img>
-          <p class="mt-6"><b>Iodine/Calcium Bird Blocks for sale</b></p>
+          <v-img class="ma-auto" src="/images/logo-round.png" width="200" contain />
+          <p class="mt-6">
+            <b>Iodine/Calcium Bird Blocks for sale</b>
+          </p>
           <p>Give your birds all the necessary Minerals/Vitamins they need all year. Increase bone strength, less egg bound, increase egg strength, increase general health of your birds.</p>
-          <v-btn href="https://www.mbsb.co.za/" target="_blank" class="red" dark>Order Now!</v-btn>
+          <v-btn href="https://www.mbsb.co.za/" target="_blank" class="red" dark>
+            Order Now!
+          </v-btn>
         </v-card>
       </v-col>
     </v-row>

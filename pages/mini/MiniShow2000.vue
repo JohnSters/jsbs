@@ -1,84 +1,90 @@
 <template>
   <v-container>
-
     <div class="text-center mb-6">
-      <v-btn to="/results" class="purple darken-1 mt-1" dark rounded text><v-icon class="mr-2">mdi-arrow-left</v-icon>Main Menu</v-btn>
-      <v-btn to="/mini/MiniShow1999" class="purple darken-1 mt-1" dark rounded text>Mini Show 1999 <v-icon class="ml-2">mdi-arrow-right</v-icon></v-btn>
+      <v-btn to="/results" class="purple darken-1 mt-1" dark rounded text>
+        <v-icon class="mr-2">
+          mdi-arrow-left
+        </v-icon>Main Menu
+      </v-btn>
+      <v-btn to="/mini/MiniShow1999" class="purple darken-1 mt-1" dark rounded text>
+        Mini Show 1999 <v-icon class="ml-2">
+          mdi-arrow-right
+        </v-icon>
+      </v-btn>
     </div>
 
     <h1>Mini Show Results 2000</h1>
 
     <v-simple-table>
-      <template v-slot:default>
+      <template #default>
         <thead>
-        <tr>
-          <th class="text-left">
-            Mini Show Date
-          </th>
-          <th class="text-left">
-            Award
-          </th>
-          <th class="text-left">
-            Exhibitor
-          </th>
-          <th class="text-left">
-            Status
-          </th>
-        </tr>
+          <tr>
+            <th class="text-left">
+              Mini Show Date
+            </th>
+            <th class="text-left">
+              Award
+            </th>
+            <th class="text-left">
+              Exhibitor
+            </th>
+            <th class="text-left">
+              Status
+            </th>
+          </tr>
         </thead>
         <tbody>
-        <tr
-          v-for="item in mini2019"
-          :key="item.name"
-        >
-          <td>{{ item.date }}</td>
-          <td>{{ item.award }}</td>
-          <td>{{ item.exh }}</td>
-          <td>{{ item.status }}</td>
-        </tr>
+          <tr
+            v-for="item in mini2019"
+            :key="item.name"
+          >
+            <td>{{ item.date }}</td>
+            <td>{{ item.award }}</td>
+            <td>{{ item.exh }}</td>
+            <td>{{ item.status }}</td>
+          </tr>
         </tbody>
       </template>
     </v-simple-table>
 
     <v-row class="mt-6">
       <v-col cols="12" sm="3">
-        <v-img src="/images/budgies/minishow2000/bestb.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/bestb.jpg" height="400" contain />
         Best Bird on Show and Best Novice on Show - Nel Brothers Stud
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/bestos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/bestos.jpg" height="400" contain />
         Best Opposite Sex on Show - Andre Erasmus
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/interbbegos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/interbbegos.jpg" height="400" contain />
         Best Champion on Show - Japie Smit
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/interbchos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/interbchos.jpg" height="400" contain />
         Best Intermediate on Show - Corrie van Staden
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/interbintos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/interbintos.jpg" height="400" contain />
         Best Beginner on Show - Jacobs and Uys
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/interbos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/interbos.jpg" height="400" contain />
         Best Bird on Show - Molkentin Stud
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/interbosos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/interbosos.jpg" height="400" contain />
         Best Opposite Sex on Show - Nel Brothers Stud
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/molbb.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/molbb.jpg" height="400" contain />
         Best Bird on Show - Molkentin Stud
       </v-col>
       <v-col cols="2">
-        <v-img src="/images/budgies/minishow2000/nbsbos.jpg" height="400" contain></v-img>
+        <v-img src="/images/budgies/minishow2000/nbsbos.jpg" height="400" contain />
         Best Opposite Sex on Show - Nel Brothers Stud
       </v-col>
     </v-row>
-
   </v-container>
 </template>
 
