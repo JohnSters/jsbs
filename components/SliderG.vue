@@ -77,7 +77,10 @@ export default {
     model: null,
     items: [
       { src: 'images/derby2025/best-opposite-sex.jpg', show: 'Derby Show 2025', title: 'Best Opposite Sex', name: 'Henk Potgieter' },
-      { src: 'images/derby2025/best-in-show.jpg', show: 'Derby Show 2025', title: 'Best in Show', name: 'Michael Borcherds' }
+      { src: 'images/derby2025/best-in-show.jpg', show: 'Derby Show 2025', title: 'Best in Show', name: 'Michael Borcherds' },
+      { src: 'images/minishow2026/image1.jpg', show: 'Derby Show 2025', title: 'Best in Show and Best Intermediate', name: 'Todd Young' },
+      { src: 'images/minishow2026/image2.jpg', show: 'Derby Show 2025', title: 'Best Opposite Sex and Best Champion', name: 'Mike Davies' },
+      { src: 'images/minishow2026/image3.jpg', show: 'Derby Show 2025', title: 'Best Novice', name: 'Izak Visagie' }
     ]
   })
 }
