@@ -94,22 +94,6 @@
         <v-col cols="12" sm="3">
           <v-card class="pa-3 purple white--text rounded-0" flat>
             <h5 class="text-center">
-              Vice Chairman
-            </h5>
-            <h4 class="text-center font-weight-light">
-              Attie Van Staaden
-            </h4>
-            <h4 class="text-center font-weight-light">
-              <v-icon class="mb-1" small>
-                mdi-cellphone
-              </v-icon>
-              :082 382 5925
-            </h4>
-          </v-card>
-        </v-col>
-        <v-col cols="12" sm="3">
-          <v-card class="pa-3 purple white--text rounded-0" flat>
-            <h5 class="text-center">
               Treasurer
             </h5>
             <h4 class="text-center font-weight-light">
