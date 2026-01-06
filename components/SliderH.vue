@@ -4,7 +4,7 @@
     elevation="0"
   >
     <h4 class="text-center purple darken-3 white--text">
-      Derby Show 2025
+      Year End Show 2025
     </h4>
     <v-slide-group
       v-model="model"
@@ -72,12 +72,13 @@
 
 <script>
 export default {
-  name: 'SliderG',
+  name: 'SliderH',
   data: () => ({
     model: null,
     items: [
-      { src: 'images/derby2025/best-opposite-sex.jpg', show: 'Derby Show 2025', title: 'Best Opposite Sex', name: 'Henk Potgieter' },
-      { src: 'images/derby2025/best-in-show.jpg', show: 'Derby Show 2025', title: 'Best in Show', name: 'Michael Borcherds' }
+      { src: 'images/minishow2026/image1.jpg', show: 'Year End Show 2025', title: 'Best in Show and Best Intermediate', name: 'Todd Young' },
+      { src: 'images/minishow2026/image2.jpg', show: 'Year End Show 2025', title: 'Best Opposite Sex and Best Champion', name: 'Mike Davies' },
+      { src: 'images/minishow2026/image3.jpg', show: 'Year End Show 2025', title: 'Best Novice', name: 'Izak Visagie' }
     ]
   })
 }

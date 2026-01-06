@@ -81,14 +81,14 @@
         <v-expansion-panels>
           <v-expansion-panel>
             <v-expansion-panel-header color="purple" class="white--text">
-              2025 Derby Show Winning Bird Photos (Click to Open)
+              2025 Year End Show Winning Bird Photos (Click to Open)
             </v-expansion-panel-header>
             <v-expansion-panel-content>
               <v-row class="mt-6">
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
                     <h3 class="purple white--text text-center ma-3">
-                      2025 Derby Show
+                      2025 Year End Show
                     </h3>
                     <v-img contain height="400" src="/images/minishow2026/image1.jpg" />
                     <p class="text-center mt-2">
@@ -99,7 +99,7 @@
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
                     <h3 class="purple white--text text-center ma-3">
-                      2025 Derby Show
+                      2025 Year End Show
                     </h3>
                     <v-img contain height="400" src="/images/minishow2026/image2.jpg" />
                     <p class="text-center mt-2">
@@ -110,11 +110,43 @@
                 <v-col cols="12" sm="4">
                   <v-card class="pa-3">
                     <h3 class="purple white--text text-center ma-3">
-                      2025 Derby Show
+                      2025 Year End Show
                     </h3>
                     <v-img contain height="400" src="/images/minishow2026/image3.jpg" />
                     <p class="text-center mt-2">
                       Best Novice - Izak Visagie
+                    </p>
+                  </v-card>
+                </v-col>
+              </v-row>
+            </v-expansion-panel-content>
+          </v-expansion-panel>
+
+          <v-expansion-panel>
+            <v-expansion-panel-header color="purple" class="white--text">
+              2025 Derby Show Winning Bird Photos (Click to Open)
+            </v-expansion-panel-header>
+            <v-expansion-panel-content>
+              <v-row class="mt-6">
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2025 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2025/best-in-show.jpg" />
+                    <p class="text-center mt-2">
+                      Best In Show - Michael Borcherds
+                    </p>
+                  </v-card>
+                </v-col>
+                <v-col cols="12" sm="4">
+                  <v-card class="pa-3">
+                    <h3 class="purple white--text text-center ma-3">
+                      2025 Derby Show
+                    </h3>
+                    <v-img contain height="400" src="/images/derby2025/best-opposite-sex.jpg" />
+                    <p class="text-center mt-2">
+                      Best Opposite Sex - Henk Potgieter
                     </p>
                   </v-card>
                 </v-col>

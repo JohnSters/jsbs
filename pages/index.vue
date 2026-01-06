@@ -6,6 +6,7 @@
         Society of South Africa</a>
     </p>
 
+    <SliderH />
     <SliderG />
     <SliderF />
     <SliderE />
